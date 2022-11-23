@@ -5,6 +5,7 @@
   position: relative;
   margin-top: -7rem;
 }
+
 .f-content {
   position: absolute;
   display: flex;
@@ -12,17 +13,29 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  margin-top: 4rem;
   gap: 4rem;
   color: white;
 }
+
 .f-icons {
   display: flex;
   gap: 2rem;
 }
 
-@media screen and (max-width: 480px){
-  .f-content{
+.f-logo {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: flex-end;
+}
+
+.f-logo img {
+  width: 40%;
+
+}
+
+@media screen and (max-width: 480px) {
+  .f-content {
     transform: scale(.5);
   }
 }
