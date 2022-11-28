@@ -43,6 +43,8 @@
   height: auto;
   text-decoration: none;
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .i-icons {
