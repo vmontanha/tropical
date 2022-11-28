@@ -54,4 +54,27 @@
   .n-list {
     display: none;
   }
+
+  .n-wrapper {
+    display: block;
+    width: 100%;
+  }
+
+  .n-left {
+    display: block;
+    position: relative;
+  }
+
+  .n-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .n-right {
+    display: none;
+    width: 0;
+  }
+
+
 }

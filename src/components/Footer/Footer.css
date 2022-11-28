@@ -40,4 +40,13 @@
   .f-content {
     transform: scale(.5);
   }
+
+  .f-logo {
+    margin-top: 6rem;
+  }
+
+  .f-logo img {
+    width: 200%;
+
+  }
 }

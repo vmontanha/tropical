@@ -1,7 +1,7 @@
 .Intro {
   display: flex;
   height: 77vh;
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 /* left side styling */
@@ -113,7 +113,15 @@
     flex-direction: column;
     gap: 7rem;
     height: 64rem;
+    margin-bottom: 6rem;
+
   }
+
+  .i-left {
+    text-align: center;
+    align-items: center;
+  }
+
 
   .i-right {
     transform: scale(0.8);
