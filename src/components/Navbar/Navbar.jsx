@@ -24,12 +24,12 @@ const navbar = () => {
             </li>
             <li>
               <Link to="services" spy={true} smooth={true}>
-                Serivces
+                Serviços
               </Link>
             </li>
             <li>
               <Link to="works" spy={true} smooth={true}>
-                Experience
+                Parceiros
               </Link>
             </li>
             {/* <li>
@@ -39,7 +39,7 @@ const navbar = () => {
             </li> */}
             <li>
               <Link to="testimonial" spy={true} smooth={true}>
-                Testimonial
+                Depoimentos
               </Link>
             </li>
           </ul>

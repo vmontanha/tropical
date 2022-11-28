@@ -27,11 +27,10 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Olá, somos a Tropical</span>
-          <span>Andrew Thomas</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Olá, sejam bem-vindos(as)</span>
+          <span>Somos a Tropical</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Existimos para oferecer Soluções Digitais para a sua empresa!
           </span>
         </div>
 
