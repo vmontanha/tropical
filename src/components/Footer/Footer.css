@@ -1,9 +1,11 @@
 .footer {
   display: flex;
   align-items: center;
-  margin: -0.5rem -3.5rem;
   position: relative;
-  margin-top: -7rem;
+  height: 50vh;
+  justify-content: center;
+  margin-bottom: 3rem;
+  width: 100%;
 }
 
 .f-content {
@@ -30,7 +32,7 @@
 }
 
 .f-logo img {
-  width: 40%;
+  width: 50%;
 
 }
 
