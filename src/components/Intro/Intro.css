@@ -40,7 +40,9 @@
 
 .i-button {
   width: 6rem;
-  height: 2rem;
+  height: auto;
+  text-decoration: none;
+  text-align: center;
 }
 
 .i-icons {

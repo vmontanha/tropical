@@ -44,9 +44,9 @@ const navbar = () => {
             </li>
           </ul>
         </div>
-        {/* <Link to="contact" spy={true} smooth={true}>
-          <button className="button n-button">Contact</button>
-        </Link> */}
+
+        <a href="https://api.whatsapp.com/send?phone=5511951442972&text=Ol%C3%A1%2C%20vim%20do%20site%20da%20Tropical.%20Gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20os%20servi%C3%A7os." className="button n-button">Conversar</a>
+
       </div>
     </div>
   );
