@@ -15,8 +15,8 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        // Mudar Natan
-        "Desenvolvimento fantastico empresa linda",
+        // mudanca by natan
+        "seja bem vindo vinicius natan",
     },
     {
       img: profilePic2,
