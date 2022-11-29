@@ -11,6 +11,7 @@
 
 .t-heading {
   align-self: start;
+
 }
 
 .t-heading>* {
@@ -41,6 +42,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  text-align: center;
   padding: 2rem;
   width: 30rem;
   height: auto;
@@ -49,6 +51,7 @@
   border: 7px solid var(--blueCard);
   box-shadow: var(--boxShadow);
   border-radius: 20px;
+
 }
 
 .testimonial>img {
@@ -58,7 +61,7 @@
 }
 
 .testimonial>span {
-  color: var(--gray);
+  color: black;
 }
 
 
