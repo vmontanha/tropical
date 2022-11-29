@@ -16,7 +16,7 @@ const Testimonial = () => {
       img: conape,
       review:
 
-        "Soluções modernas para Design e Tecnologia, é um profissional sério e competente, atua com responsabilidade, Valdir Campos Costa  Conape Auditoria Contábil e Tributária.",
+        "'Soluções modernas para Design e Tecnologia, é um profissional sério e competente, atua com responsabilidade, Valdir Campos Costa  Conape Auditoria Contábil e Tributária.'",
     },
     {
       img: profilePic2,
