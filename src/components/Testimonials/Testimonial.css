@@ -49,9 +49,17 @@
   /* styles same as work.css */
   background: rgba(255, 255, 255, 0.26);
   border: 7px solid var(--blueCard);
-  box-shadow: var(--boxShadow);
   border-radius: 20px;
 
+}
+
+swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 0px !important;
+  left: 0;
+  width: 100%;
 }
 
 .testimonial>img {
