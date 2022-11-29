@@ -7,7 +7,7 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll'
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -21,21 +21,14 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            Conheça nossos
           </span>
-          <span>Brands & Clients</span>
+          <span>Clientes</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+            Vejam algumas empresas que adquiriram os nossos serviços e quais fazem parte do time da Tropical
           </spane>
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+            <button className="button s-button">Contrate-nos</button>
           </Link>
           <div
             className="blur s-blur1"
