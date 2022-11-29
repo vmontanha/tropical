@@ -34,9 +34,11 @@
 }
 
 .s-button {
-  width: 8rem;
-  height: 2rem;
+  width: 6rem;
+  height: auto;
   margin-top: 3rem;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* right side */
