@@ -47,7 +47,7 @@
 }
 
 .n-button {
-  flex: 2;
+  /*flex: 2;*/
   cursor: pointer;
   text-decoration: none;
 }
