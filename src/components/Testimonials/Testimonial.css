@@ -47,7 +47,7 @@
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
-  padding: 2.5rem;
+  padding: 2rem 2rem 2rem;
   width: 30rem;
   height: auto;
   /* styles same as work.css */
@@ -61,7 +61,7 @@ swiper-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  bottom: 0px !important;
+  bottom: 30px !important;
   left: 0;
   width: 100%;
 }
@@ -102,6 +102,6 @@ swiper-horizontal>.swiper-pagination-bullets,
   .testimonial>img {
     width: 100px;
     height: 100px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 }
