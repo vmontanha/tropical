@@ -5,7 +5,7 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/profile1.jpg";
+import conape from "../../img/logo_favicon.png";
 import profilePic2 from "../../img/profile2.jpg";
 import profilePic3 from "../../img/profile3.jpg";
 import profilePic4 from "../../img/profile4.jpg";
@@ -13,10 +13,10 @@ import profilePic4 from "../../img/profile4.jpg";
 const Testimonial = () => {
   const clients = [
     {
-      img: profilePic1,
+      img: conape,
       review:
-        // mudanca by natan
-        "seja bem vindo vinicius natan",
+        // mudanca by natan depoimento valdir campos
+        "O Vinicius da Tropical - Soluções modernas para Design e Tecnologia, é um profissional sério e competente, atua com responsabilidade, é rápido nas demandas que rotineiramente entregamos a ele, é certeiro e objetivo com muita qualidade no desenvolvimento dos trabalhos. Desenvolveu nosso site Conape - Auditoria Tributária há mais de dois anos e desde então cuida com muito esmero de nossa imagem na web, está sempre atento às novidades e tecnologia para nos oferecer o melhor à nossa empresa. Não tenho nenhuma dúvida de que a Tropical cuidará também da imagem de sua organização com o mesmo carinho e dedicação que cuida da nossa. Valdir Campos Costa  Conape Auditoria Contábil e Tributária - Sócio",
     },
     {
       img: profilePic2,
