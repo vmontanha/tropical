@@ -23,10 +23,10 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Nossos</span>
+        <span>serviços</span>
         <span>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          Temos como função principal ajudar e incentivar os pequenos negócios a implementar a tecnologia como solução para sua empresa. Perceba que o que falta para alavancar seu negócio na área de teologia são os serviços da Tropical.
           <br />
           ispum is simpley dummy text of printing
         </span>
