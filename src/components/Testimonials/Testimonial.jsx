@@ -14,33 +14,41 @@ const Testimonial = () => {
   const clients = [
     {
       img: conape,
+      orange: "Conape Auditoria Tributária",
+      nome: "Valdir Campos Costa",
       review:
-
-        "O Vinicius da Tropical - Soluções modernas para Design e Tecnologia, é um profissional sério e competente, atua com responsabilidade, é rápido nas demandas que rotineiramente entregamos a ele, é certeiro e objetivo com muita qualidade no desenvolvimento dos trabalhos. Desenvolveu nosso site Conape - Auditoria Tributária há mais de dois anos e desde então cuida com muito esmero de nossa imagem na web, está sempre atento às novidades e tecnologia para nos oferecer o melhor à nossa empresa. Não tenho nenhuma dúvida de que a Tropical cuidará também da imagem de sua organização com o mesmo carinho e dedicação que cuida da nossa. Valdir Campos Costa  Conape Auditoria Contábil e Tributária - Sócio",
+        "Soluções modernas para Design e Tecnologia, é um profissional sério e competente, atua com responsabilidade.",
     },
     {
       img: profilePic2,
+      orange: "Conape Auditoria Tributária",
+      nome: "Valdir Campos Costa",
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium.",
     },
     {
       img: profilePic3,
+      orange: "Conape Auditoria Tributária",
+      nome: "Valdir Campos Costa",
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error .",
     },
     {
       img: profilePic4,
+      orange: "Conape Auditoria Tributária",
+      nome: "Valdir Campos Costa",
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error.",
     },
   ];
 
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Clients always get </span>
-        <span>Exceptional Work </span>
-        <span>from me...</span>
+        <span>Veja algumas  </span>
+        <span> avaliações </span>
+        <span>de nossos</span>
+        <span> clientes</span>
         <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
         <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
@@ -56,6 +64,8 @@ const Testimonial = () => {
             <SwiperSlide key={index}>
               <div className="testimonial">
                 <img src={client.img} alt="" />
+                <span>{client.nome}</span>
+                <span className="orange">{client.orange}</span>
                 <span>{client.review}</span>
               </div>
             </SwiperSlide>
