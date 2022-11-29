@@ -24,6 +24,10 @@
   color: var(--orange);
 }
 
+.t-heading span:nth-of-type(4) {
+  color: var(--orange);
+}
+
 .t-blur1 {
   left: 38rem;
   top: 16rem;
