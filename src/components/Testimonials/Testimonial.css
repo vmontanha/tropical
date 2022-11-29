@@ -43,7 +43,7 @@
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
-  padding: 2rem;
+  padding: 2.5rem;
   width: 30rem;
   height: auto;
   /* styles same as work.css */
@@ -70,6 +70,7 @@ swiper-horizontal>.swiper-pagination-bullets,
 
 .testimonial>span {
   color: black;
+  padding-bottom: 20px;
 }
 
 
