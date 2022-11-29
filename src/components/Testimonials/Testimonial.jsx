@@ -14,25 +14,29 @@ const Testimonial = () => {
   const clients = [
     {
       img: conape,
-      nome: "Valdir Campos Costa  - Conape Auditoria Contábil e Tributária ",
+      orange: "Conape Auditoria Tributária",
+      nome: "Valdir Campos Costa",
       review:
         "Soluções modernas para Design e Tecnologia, é um profissional sério e competente, atua com responsabilidade.",
     },
     {
       img: profilePic2,
-      nome: "Valdir Campos Costa  - Conape Auditoria Contábil e Tributária",
+      orange: "Conape Auditoria Tributária",
+      nome: "Valdir Campos Costa",
       review:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium.",
     },
     {
       img: profilePic3,
-      nome: "Valdir Campos Costa  - Conape Auditoria Contábil e Tributária",
+      orange: "Conape Auditoria Tributária",
+      nome: "Valdir Campos Costa",
       review:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error .",
     },
     {
       img: profilePic4,
-      nome: "Valdir Campos Costa  - Conape Auditoria Contábil e Tributária",
+      orange: "Conape Auditoria Tributária",
+      nome: "Valdir Campos Costa",
       review:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error.",
     },
@@ -61,6 +65,7 @@ const Testimonial = () => {
               <div className="testimonial">
                 <img src={client.img} alt="" />
                 <span>{client.nome}</span>
+                <span className="orange">{client.orange}</span>
                 <span>{client.review}</span>
               </div>
             </SwiperSlide>

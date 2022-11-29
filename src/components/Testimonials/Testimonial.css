@@ -37,6 +37,10 @@
   left: 0;
 }
 
+.orange {
+  color: var(--orange) !important;
+}
+
 .testimonial {
   display: flex;
   flex-direction: column;
