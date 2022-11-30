@@ -30,12 +30,13 @@ const Services = () => {
           <br />
 
         </span>
-        <span className="introservice">Seja bem vindo a <span className="introserviceorange">Tecnologia...</span></span>
+
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
+        <span className="introservice">Seja bem vindo a <span className="introserviceorange">Tecnologia...</span></span>
+
       </div>
       {/* right */}
       <div className="cards">
-
 
         {/* first card */}
         <motion.div

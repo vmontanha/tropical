@@ -40,8 +40,6 @@
 .introservice {
   padding-top: 1em;
   color: black;
-  display: absolute;
-
 }
 
 .introserviceorange {
@@ -94,10 +92,14 @@
   .cards {
     display: flex;
     flex-direction: column;
-    gap: 17rem;
+    gap: 20rem;
   }
 
   .cards>* {
     position: static;
+  }
+
+  .card:first-child {
+    margin-bottom: 4rem !important;
   }
 }
