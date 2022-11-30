@@ -23,8 +23,8 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span>Nossos soluções</span>
-        <span>para você</span>
+        <span>Serviços que</span>
+        <span>oferecemos</span>
         <span>
           Temos como função principal ajudar e incentivar os pequenos negócios a implementar a tecnologia como solução para sua empresa. Perceba que o que falta para alavancar seu negócio na área de teologia são os serviços da Tropical.
           <br />
@@ -32,7 +32,7 @@ const Services = () => {
         </span>
 
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
-        <span className="introservice">Seja bem vindo a <span className="introserviceorange">Tecnologia...</span></span>
+        <span className="introservice">Soluções completas <span className="introserviceorange">para sua empresa!</span></span>
 
       </div>
       {/* right */}
