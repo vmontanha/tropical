@@ -1,6 +1,7 @@
 {
-  "name": "tropical",
+  "name": "tropcal-site",
   "version": "0.1.0",
+  "homepage": "https://tropicaltecnologia.com.br",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
