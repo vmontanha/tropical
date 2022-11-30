@@ -23,17 +23,21 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>Nossos</span>
-        <span>serviços</span>
+        <span>Nossos soluções</span>
+        <span>para você</span>
         <span>
           Temos como função principal ajudar e incentivar os pequenos negócios a implementar a tecnologia como solução para sua empresa. Perceba que o que falta para alavancar seu negócio na área de teologia são os serviços da Tropical.
           <br />
 
         </span>
+
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
+        <span className="introservice">Seja bem vindo a <span className="introserviceorange">Tecnologia...</span></span>
+
       </div>
       {/* right */}
       <div className="cards">
+
         {/* first card */}
         <motion.div
           initial={{ left: "25rem" }}
@@ -42,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Sites & Sistemas"}
+            detail={"Design, sistemas financeiros, administrativos, estoque e todos os tipos de serviços para sua empresa."}
           />
         </motion.div>
         {/* second card */}
@@ -54,8 +58,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Apps em geral"}
+            detail={"Aplicações em iOS, Android e Web com foco na sua necessidade. "}
           />
         </motion.div>
         {/* 3rd */}
@@ -66,9 +70,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Manutenção & Sustentação"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Todo o suporte e sustentação para os aplicativos, sistemas e sites."
             }
             color="rgba(252, 166, 31, 0.45)"
           />
