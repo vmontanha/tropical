@@ -37,6 +37,16 @@
   margin-top: 1rem;
 }
 
+.introservice {
+  padding-top: 1em;
+  color: black;
+}
+
+.introserviceorange {
+  color: var(--orange);
+  font-size: 1em;
+}
+
 .s-button {
   width: 8rem;
   height: 2rem;
@@ -82,10 +92,14 @@
   .cards {
     display: flex;
     flex-direction: column;
-    gap: 17rem;
+    gap: 20rem;
   }
 
   .cards>* {
     position: static;
+  }
+
+  .card:first-child {
+    margin-bottom: 4rem !important;
   }
 }
