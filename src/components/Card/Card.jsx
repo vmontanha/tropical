@@ -7,7 +7,7 @@ const Card = ({ emoji, heading, detail, color }) => {
       <img src={emoji} alt="" />
       <span>{heading}</span>
       <span>{detail}</span>
-      <button className="c-button">SAIBA MAIS</button>
+      <a target="_blank" href="https://api.whatsapp.com/send?phone=5511939588122&text=Seja%20bem%20vindo!%2C%20como%20podemos%20lhe%20ajudar%20%3F" className="c-button">SAIBA MAIS</a>
     </div>
   );
 };

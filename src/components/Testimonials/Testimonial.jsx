@@ -2,13 +2,9 @@ import React from "react";
 import "./Testimonial.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import conape from "../../img/logo_favicon.png";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
+import conape from "../../img/logo_favicon.png"
 
 const Testimonial = () => {
   const clients = [
@@ -18,27 +14,6 @@ const Testimonial = () => {
       nome: "Valdir Campos Costa",
       review:
         "Soluções modernas para Design e Tecnologia, é um profissional sério e competente, atua com responsabilidade.",
-    },
-    {
-      img: profilePic2,
-      orange: "Conape Auditoria Tributária",
-      nome: "Valdir Campos Costa",
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium.",
-    },
-    {
-      img: profilePic3,
-      orange: "Conape Auditoria Tributária",
-      nome: "Valdir Campos Costa",
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error .",
-    },
-    {
-      img: profilePic4,
-      orange: "Conape Auditoria Tributária",
-      nome: "Valdir Campos Costa",
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error.",
     },
   ];
 
