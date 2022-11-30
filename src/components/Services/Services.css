@@ -37,6 +37,18 @@
   margin-top: 1rem;
 }
 
+.introservice {
+  padding-top: 1em;
+  color: black;
+  display: absolute;
+
+}
+
+.introserviceorange {
+  color: var(--orange);
+  font-size: 1.2em;
+}
+
 .s-button {
   width: 8rem;
   height: 2rem;
