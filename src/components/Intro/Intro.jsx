@@ -23,9 +23,8 @@ const Intro = () => {
       {/* left name side */}
       <div className="i-left">
         <div className="i-name">
-          {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Olá, <br />Sejam bem-vindos(as)</span>
-          <span>Somos a Tropical</span>
+          <span>Olá, <br /> Somos a Tropical </span>
+          <span>Sejam bem-vindos(as)</span>
           <span>
             Existimos para oferecer Soluções Digitais para a sua empresa!
           </span>
