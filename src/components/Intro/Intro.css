@@ -8,7 +8,6 @@
 .i-left {
   display: flex;
   position: relative;
-  flex: 1;
   flex-direction: column;
   gap: 2rem;
 }
@@ -116,15 +115,14 @@
   .Intro {
     flex-direction: column;
     gap: 7rem;
-    height: 64rem;
+    height: 150vh;
     margin-bottom: 6rem;
-
   }
 
   .i-left {
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
 
@@ -140,8 +138,14 @@
   .floating-div:nth-of-type(1) {
     /* display: none; */
     top: -7rem !important;
-    ;
   }
+
+  .i-right> :nth-child(1) {
+    transform: scale(1.0);
+    left: 0%;
+    top: 40%;
+  }
+
 
   .i-name> :nth-child(1) {
     color: var(--black);
