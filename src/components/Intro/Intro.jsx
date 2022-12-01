@@ -27,8 +27,8 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Olá, sejam bem-vindos(as)</span>
-          <span>Somos a Tropical</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Olá, <br />Somos a Tropical</span>
+          <span>Sejam Bem Vindos(as)</span>
           <span>
             Existimos para oferecer Soluções Digitais para a sua empresa!
           </span>
@@ -63,7 +63,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="Inovações" text2="Tecnológicas" />
         </motion.div>
 
         {/* animation */}
@@ -74,7 +74,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Melhores em" text2="Soluções" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
