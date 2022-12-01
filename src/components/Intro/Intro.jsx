@@ -7,9 +7,6 @@ import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
-import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { FaWhatsapp } from 'react-icons/fa';
@@ -27,21 +24,21 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Olá, <br />Somos a Tropical</span>
-          <span>Sejam Bem Vindos(as)</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Olá, <br />Sejam bem-vindos(as)</span>
+          <span>Somos a Tropical</span>
           <span>
             Existimos para oferecer Soluções Digitais para a sua empresa!
           </span>
         </div>
 
-        <a href="https://api.whatsapp.com/send?phone=5511951442972&text=Ol%C3%A1%2C%20vim%20do%20site%20da%20Tropical.%20Gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20os%20servi%C3%A7os." className="button i-button"><FaWhatsapp /> Contato</a>
+        <a href="https://api.whatsapp.com/send?phone=5511939588122&text=Seja%20bem%20vindo!%2C%20como%20podemos%20lhe%20ajudar%20%3F" className="button i-button"><FaWhatsapp /> Contato</a>
 
         {/* social icons */}
-        <div className="i-icons">
+        {/* <div className="i-icons">
           <img src={Github} alt="" />
           <img src={LinkedIn} alt="" />
           <img src={Instagram} alt="" />
-        </div>
+        </div> */}
       </div>
       {/* right image side */}
       <div className="i-right">

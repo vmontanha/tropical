@@ -34,9 +34,11 @@
 }
 
 .s-button {
-  width: 8rem;
-  height: 2rem;
+  width: 6rem;
+  height: auto;
   margin-top: 3rem;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* right side */
@@ -45,7 +47,7 @@
 }
 
 .w-mainCircle {
-  left: 9rem;
+  /* left: 9rem; */
   position: relative;
   width: 18rem;
   height: 18rem;
@@ -115,22 +117,21 @@
 
 .blueCircle {
   background: #1949b8;
-  left: 18rem;
+  left: 8rem;
   top: 0rem;
 }
 
 .yellowCircle {
   background: #f5c32c;
-  left: 18rem;
+  left: 8rem;
   top: 8rem;
 }
 
 @media screen and (max-width: 480px) {
   .works {
     flex-direction: column;
-
     padding: 0;
-    gap: 5rem;
+    /* gap: 5rem; */
   }
 
   .w-right {
