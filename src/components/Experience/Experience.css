@@ -54,9 +54,7 @@
     flex-direction: column;
     position: relative;
     gap: 2rem;
-    height: 150vh;
-    margin-top: 4rem;
-    margin-bottom: 12rem;
+    height: 180vh;
   }
 
   .circle {
