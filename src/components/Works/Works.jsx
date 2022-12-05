@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Upwork from "../../img/sendinblue.webp";
+import Fiverr from "../../img/figma.png";
+import Amazon from "../../img/favicon.png";
+import Shopify from "../../img/twilio.png";
+import Facebook from "../../img/whatsapp.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from 'react-scroll'
@@ -21,11 +21,11 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Conheça nossos
+            Conheça nossas
           </span>
-          <span>Clientes</span>
+          <span>Ferramentas</span>
           <spane>
-            Vejam algumas empresas que adquiriram os nossos serviços e quais fazem parte do time da Tropical
+            Tropical oferece todos os serviços de marketing, design e ajustes de operações para concluirmos sua solicitação.
           </spane>
 
           <a href="https://api.whatsapp.com/send?phone=5511951442972&text=Ol%C3%A1%2C%20vim%20do%20site%20da%20Tropical.%20Gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20os%20servi%C3%A7os." className="button s-button">Contrate-nos</a>
