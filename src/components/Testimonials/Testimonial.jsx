@@ -13,7 +13,7 @@ const Testimonial = () => {
       orange: "Conape Auditoria Tributária",
       nome: "Valdir Campos Costa",
       review:
-        "Soluções modernas para Design e Tecnologia, é um profissional sério e competente, atua com responsabilidade.",
+        "Soluções modernas para Design e Tecnologia, são profissionais sérios e competentes, atuam com responsabilidade.",
     },
   ];
 
