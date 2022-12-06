@@ -23,10 +23,10 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span>Serviços que</span>
-        <span>oferecemos</span>
+        <span>Nossos</span>
+        <span>Serviços</span>
         <span>
-          Temos como função principal ajudar e incentivar os pequenos negócios a implementar a tecnologia como solução para sua empresa. Perceba que o que falta para alavancar seu negócio na área de teologia são os serviços da Tropical.
+          Temos como função principal ajudar e incentivar os pequenos negócios a implementar a tecnologia como solução para sua empresa. Perceba que o que falta para alavancar seu negócio na área de tecnologia são os serviços da Tropical.
           <br />
 
         </span>
@@ -47,7 +47,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Sites & Sistemas"}
-            detail={"Design, sistemas financeiros, administrativos, estoque e todos os tipos de serviços para sua empresa."}
+            detail={"Design, sistemas financeiros, administrativos, estoque e todos os tipos de serviços."}
           />
         </motion.div>
         {/* second card */}
