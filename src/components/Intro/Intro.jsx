@@ -23,14 +23,14 @@ const Intro = () => {
       {/* left name side */}
       <div className="i-left">
         <div className="i-name">
-          <span>Olá, <br /> Somos a Tropical </span>
-          <span>Sejam bem-vindos(as)</span>
+          <span>Olá, <br /> Somos a Tropical. </span>
+          <span>Sejam bem-vindos(as)!</span>
           <span>
             Existimos para oferecer Soluções Digitais para a sua empresa!
           </span>
         </div>
 
-        <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Seja%20bem%20vindo!%2C%20como%20podemos%20lhe%20ajudar%20%3F" className="button i-button"><FaWhatsapp /> Contato</a>
+        <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Seja%20bem%20vindo!%2C%20como%20podemos%20lhe%20ajudar%20%3F" target="_blank" className="button i-button"><FaWhatsapp /> Contato</a>
 
         {/* social icons */}
         {/* <div className="i-icons">

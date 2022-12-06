@@ -25,10 +25,10 @@ const Works = () => {
           </span>
           <span>Ferramentas</span>
           <spane>
-            Tropical oferece todos os serviços de marketing, design e ajustes de operações para concluirmos sua solicitação.
+            A Tropical oferece todos os serviços de marketing, design e ajustes de operações para concluirmos sua solicitação.
           </spane>
 
-          <a href="https://api.whatsapp.com/send?phone=5511951442972&text=Ol%C3%A1%2C%20vim%20do%20site%20da%20Tropical.%20Gostaria%20de%20saber%20um%20pouco%20mais%20sobre%20os%20servi%C3%A7os." className="button s-button">Contrate-nos</a>
+          <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Seja%20bem%20vindo!%2C%20como%20podemos%20lhe%20ajudar%20%3F." target="_blank" className="button s-button">Contrate-nos</a>
 
           <div
             className="blur s-blur1"
