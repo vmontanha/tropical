@@ -30,7 +30,7 @@ const Intro = () => {
           </span>
         </div>
 
-        <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Seja%20bem%20vindo!%2C%20como%20podemos%20lhe%20ajudar%20%3F" target="_blank" className="button i-button"><FaWhatsapp /> Contato</a>
+        <a href="https://api.whatsapp.com/send?phone=5511939588122&text=Ol%C3%A1,%20vim%20do%20site,%20podem%20me%20ajudar?" target="_blank" className="button i-button"><FaWhatsapp /> Contato</a>
 
         {/* social icons */}
         {/* <div className="i-icons">
