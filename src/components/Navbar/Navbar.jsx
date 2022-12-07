@@ -37,7 +37,7 @@ const navbar = () => {
           </ul>
         </div>
 
-        <a href="https://api.whatsapp.com/send?phone=5511939588122&text=Seja%20bem%20vindo!%2C%20como%20podemos%20lhe%20ajudar%20%3F" className="button n-button">Conversar</a>
+        <a href="https://api.whatsapp.com/send?phone=5511939588122&text=Ol%C3%A1,%20vim%20do%20site,%20podem%20me%20ajudar?" className="button n-button">Conversar</a>
 
       </div>
     </div>
